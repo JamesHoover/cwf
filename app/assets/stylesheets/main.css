@@ -1,7 +1,7 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lobster|Raleway:100,400,700");
 
 
 /*
@@ -1625,7 +1625,7 @@
 	}
 
 	body {
-		background: #348AA7;
+		background: #7E7CB2;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1715,6 +1715,8 @@
 
 	h1 {
 		font-size: 2.75em;
+		font-family: "Lobster";
+		font-weight: 100;
 	}
 
 		h1.major {
@@ -1744,6 +1746,8 @@
 
 	h2 {
 		font-size: 1.75em;
+		font-family: "Lobster";
+		font-weight: 100;
 	}
 
 	h3 {
@@ -2556,7 +2560,7 @@
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #348AA7;
+			color: #7E7CB2;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2600,8 +2604,8 @@
 	}
 
 		.image img {
-			border-radius: 0.25em;
-			display: block;
+/*			border-radius: 0.25em;
+*/			display: block;
 		}
 
 		.image.left, .image.right {
@@ -2643,6 +2647,11 @@
 			.image.main img {
 				width: 100%;
 			}
+
+		.image.border {
+			border: .5em solid #ffffff;
+			border-radius: 0;
+		}
 
 /* List */
 
@@ -3261,7 +3270,7 @@
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #312450;
 		}
 
 		.wrapper.style2 {
@@ -3394,7 +3403,8 @@
 			color: #ffffff;
 			display: block;
 			font-size: 1.25em;
-			font-weight: bold;
+			font-weight: 100;
+			font-family: "Lobster";
 		}
 
 		#header > nav {
