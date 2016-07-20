@@ -20,12 +20,13 @@
 		<!-- Intro -->
 			<section id="intro" class="wrapper style1 fullscreen fade-up">
 				<div class="inner">
+					<div class="image logo"><%= image_tag "cwflogo.svg" %></div>
 					<h1>Chris Willburn Fitness</h1>
 					<h3>Personal Trainer, Weight Loss Specialist, & Healthy Lifestyle Coach</h3>
 					<p>Mountlake Terrace, WA</p>
-					<ul class="actions">
+<!-- 					<ul class="actions">
 						<li><a href="#one" class="button scrolly">Learn more</a></li>
-					</ul>
+					</ul> -->
 				</div>
 			</section>
 
@@ -34,20 +35,20 @@
 				<section>
 					<a href="#" class="image"><%= image_tag "", :data => { :position => "center center"} %></a>
 <!-- 					<%= image_tag "BA/BAchris.jpg", :data => { :position => "center center"} %>
- -->					<div class="content">
-						<div class="inner">
-							<h2>About Me</h2>
-							<ul>
-								<li>NASM certified personal trainer</li>
-								<li>NASM certified weight loss specialist</li>
-								<li>Healthy lifestyle coach</li>
-							</ul>
-							<ul class="actions">
-								<li><a href="/about" class="button">Learn more</a></li>
-							</ul>
+ -->				<div class="content">
+							<div class="inner">
+								<h2>About Me</h2>
+								<ul>
+									<li>NASM certified personal trainer</li>
+									<li>NASM certified weight loss specialist</li>
+									<li>Healthy lifestyle coach</li>
+								</ul>
+								<ul class="actions">
+									<li><a href="/about" class="button">Read more</a></li>
+								</ul>
+							</div>
 						</div>
-					</div>
-				</section>
+					</section>
 				<section>
  					<div class="content">
 						<div class="inner">
@@ -59,9 +60,6 @@
 							<p>I don't believe in running yourself into the ground working out, or crash dieting. Consistency and sustainability overtime equals results. Get the best results possible, using proven scientific methods, and have fun in the process.</p>
 
 							<p>I believe that people are happiest when striving to reach their full potential. And it is my true passion in life to help others reach that potential.</p>
-<!-- 							<ul class="actions">
-								<li><a href="/philosophy" class="button">Learn more</a></li>
-							</ul> -->
 						</div>
 					</div>
 				</section>
@@ -82,8 +80,8 @@
 		<!-- Two -->
 			<section id="two" class="wrapper style3 fade-up">
 				<div class="inner">
-					<h2>What I Offer</h2>
-					<p>Chose the plan that fits you.</p>
+					<h2>Services</h2>
+					<p>Choose the plan that fits you.</p>
 					<div class="features">
 						<section>
 							<span class="icon major fa-user"></span>
@@ -130,20 +128,23 @@
 		<!-- Three -->
 			<section id="three" class="wrapper style2 fade-up">
 				<div class="inner">
-					<h2>Before & After Working with Me</h2>
+					<h2>Transformations</h2>
 					<div class="box alt">
 						<div class="row uniform">
-							<div class="6u"><span class="image fit border"><%= image_tag "BA/BA04.jpg" %></span></div>
-							<div class="6u$"><span class="image fit border"><%= image_tag "BA/BA02.jpg" %></span></div>
-							<div class="6u"><span class="image fit border"><%= image_tag "BA/BA01.jpg" %></span></div>
-							<div class="6u"><span class="image fit border"><%= image_tag "BA/BA03.jpg" %></span></div>
+							<div class="6u 12u$(small)"><span class="image fit border"><%= image_tag "BA/BA04.jpg" %></span></div>
+							<div class="6u$ 12u$(small)"><span class="image fit border"><%= image_tag "BA/BA02.jpg" %></span></div>
+							<div class="6u 12u$(small)"><span class="image fit border"><%= image_tag "BA/BA01.jpg" %></span></div>
+							<div class="6u 12u$(small)"><span class="image fit border"><%= image_tag "BA/BA03.jpg" %></span></div>
 						</div>
 					</div>
+				</div>
+			</section>
 
-
+			<section class="wrapper style2-alt fade-up">
+				<div class="inner">
 					<h2>Testimonials</h2>
 					<div class="row uniform">
-						<div class="8u">
+						<div class="8u 12u$(medium)">
 							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
 							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
 							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
@@ -165,7 +166,7 @@
 
 
 		<!-- Five -->
- 			<section id="five" class="wrapper style2-alt fade-up">
+ 			<section id="five" class="wrapper style2 fade-up">
 				<div class="inner">
 					<h2>Get in touch</h2>
 					<p>Send me an email or call today to setup a meeting.</p>
