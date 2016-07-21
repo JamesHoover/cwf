@@ -6,8 +6,10 @@ permalink: /about/
 
 Welcome to my blog!
 
-My name is Chris Willburn. I am a Personal Trainer, Weight Loss Specialist, & Healthy Lifestyle Coach located in Mountlake Terrace, WA.
+My name is Chris Willburn. I am a Personal Trainer, Weight Loss Specialist, Healthy Lifestyle Coach, and provide Online Training & Nutrition Plans.
 
-What you can expect here...
+Located in Mountlake Terrace, WA.
 
-Contact me if you're interested!
+You can expect posts about personal fitness, weight loss, healthy living, & nutrition.
+
+Contact me if you're interested in starting your own personalized plan!

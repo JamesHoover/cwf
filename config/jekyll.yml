@@ -9,13 +9,14 @@
 title: Chris Willburn Fitness
 email: chriswillburnfitness@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to my blog! My name is Chris Willburn. I am a Personal Trainer,
-  Weight Loss Specialist, & Healthy Lifestyle Coach
-  located in Mountlake Terrace, WA.
+  Welcome to my blog! My name is Chris Willburn. I am a Personal Trainer, 
+  Weight Loss Specialist, Healthy Lifestyle Coach, and provide Online Training
+   & Nutrition Plans. 
+   Located in Mountlake Terrace, WA.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://chriswillburnfitness.com" # the base hostname & protocol for your site
 twitter_username: cwf
-github_username:  cwf
+facebook_username:  cwf
 
 # Build settings
 markdown: kramdown

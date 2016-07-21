@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Welcome to my blog"
+date:   2016-07-19 12:31:55 -0700
+categories: welcome first about
+---
+
+Thanks for checking out my blog!
+
+I will update it with posts about personal fitness, weight loss, healthy living, & nutrition.
