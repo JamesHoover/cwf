@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get '/about' => 'pages#about'
   # get '/philosophy' => 'pages#philosophy'
   get '/services' => 'pages#services'
+  get '/transformations' => 'pages#transformations'
+  get '/testimonials' => 'pages#testimonials'
   #get '/blog' => 'pages#blog'
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -3264,7 +3264,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #ffcb2f;/*#ffcb2f;*/ /*#8DC6FF;*/ /*#BCE784;*/
+			background-color: #74D2FF;/*#ffcb2f;*/ /*#8DC6FF;*/ /*#BCE784;*/
 		}
 
 		.wrapper.style1-alt {
@@ -3272,15 +3272,15 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #FFDE7B; /*#F1FAEE;*/ /*#A8DADC;*/ /*#5DD39E;*/
+			background-color: #E0FFF9; /*#F1FAEE;*/ /*#A8DADC;*/ /*#5DD39E;*/
 		}
 
 		.wrapper.style2-alt {
-			background-color: #F3D475;
+			background-color: #D6F3ED;
 		}
 
 		.wrapper.style3 {
-			background-color: #ffcb2f; /*#348AA7;*/
+			background-color: #74D2FF; /*#348AA7;*/
 		}
 
 		.wrapper.style3-alt {
@@ -3386,7 +3386,7 @@
 
 /* Main */
 #main {
-	background-color: #FFDE7B;
+	background-color: #E0FFF9;
 	color: rgba(0,0,0,.8);
 }
 #main h1, h2, h3, h4, h5, h6 {
