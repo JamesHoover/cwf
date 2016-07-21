@@ -1763,7 +1763,9 @@
 	h6 {
 		font-size: 0.6em;
 	}
-
+	@media screen and (max-width: 980px) {
+		h1,h2,h3,h4,h5,h6 {font-size: 150%;}
+	}
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -3937,8 +3939,12 @@
 				display: none;
 			}
 			#sidebar nav a {font-size: 1em;}
-		}
 
+			#sidebar {
+				height: 5em;
+				line-height: 5em;
+			}
+		}
 		@media screen and (max-width: 780px) {
 
 			#sidebar {
