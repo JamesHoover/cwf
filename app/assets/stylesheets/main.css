@@ -3346,11 +3346,11 @@
 			@media screen and (max-width: 980px) {
 
 				.wrapper.fullscreen {
-					min-height: calc(50vh - 2.5em);
+					min-height: calc(90vh - 2.5em);
 				}
 
 					body.is-ie .wrapper.fullscreen {
-						height: calc(50vh - 2.5em);
+						height: calc(90vh - 2.5em);
 					}
 
 			}
