@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   get '/index' => 'pages#index'
-  get '/elements' => 'pages#elements'
-  get '/generic' => 'pages#generic'
+  #get '/elements' => 'pages#elements'
+  #get '/generic' => 'pages#generic'
   get '/about' => 'pages#about'
-  # get '/philosophy' => 'pages#philosophy'
+  get '/philosophy' => 'pages#philosophy'
   get '/services' => 'pages#services'
   get '/transformations' => 'pages#transformations'
   get '/testimonials' => 'pages#testimonials'

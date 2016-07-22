@@ -2859,6 +2859,13 @@
 					margin-top: 0;
 				}
 
+		.nav-contact {
+			color: #ffcb2f!important;
+		}
+		.nav-contact:hover {
+			color: #ffffff!important;
+		}
+
 		ul.menu {
 			list-style: none;
 			padding: 0;
@@ -3317,7 +3324,7 @@
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			min-height: 100vh;
+			min-height: calc(90vh - 5em);
 		}
 
 			body.is-ie .wrapper.fullscreen {
@@ -3431,7 +3438,7 @@
 		display: flex;
 		background-color: rgba(0,0,0,.8); /*#525174;*/
 		cursor: default;
-		padding: 1.75em 2em;
+		padding: 1em 2em;
 	}
 
 		#header > .title {
