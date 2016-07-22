@@ -16,3 +16,5 @@
 /tmp
 
 .DS_Store
+#jekyll blog. Always different than the server so causes merge issues
+feed.xml

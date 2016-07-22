@@ -1,6 +1,6 @@
 (function($) {
 
-	/**
+/**
 	 * Generate an indented list of links from a nav. Meant for use with panel().
 	 * @return {jQuery} jQuery object.
 	 */
@@ -9,7 +9,7 @@
 		var	$this = $(this);
 			$a = $this.find('a'),
 			b = [];
-
+			$c = '';
 		$a.each(function() {
 
 			var	$this = $(this),
@@ -17,9 +17,16 @@
 				href = $this.attr('href'),
 				target = $this.attr('target');
 
+			if ($this.hasClass("current")) {
+				c = ' current';
+			}
+			else {
+				c = '';
+			};
+
 			b.push(
 				'<a ' +
-					'class="link depth-' + indent + '"' +
+					'class="link depth-' + indent + c + '"' +
 					( (typeof target !== 'undefined' && target != '') ? ' target="' + target + '"' : '') +
 					( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
 				'>' +
@@ -33,6 +40,7 @@
 		return b.join('');
 
 	};
+
 
 	/**
 	 * Panel-ify an element.
