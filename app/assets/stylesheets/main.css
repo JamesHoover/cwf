@@ -2571,7 +2571,7 @@
 		}
 
 		.icon > .label {
-			display: none;
+			/*display: none;*/
 		}
 
 		.icon.major {
@@ -2747,8 +2747,8 @@
 					}
 
 					ul.icons li > a .label, ul.icons li > span .label {
-						display: none;
-					}
+/*						display: none;
+*/					}
 
 				@media screen and (max-width: 980px) {
 					ul.icons li {font-size: 3em;}
@@ -4381,7 +4381,7 @@
 		background-size: 100% 100%;
 	}
 
-	#intro .logo img {max-width: 300px;}
+	#intro .logo img {display: inline-block; max-width: 250px;}
 
 		#intro p {
 			font-size: 1.25em;
