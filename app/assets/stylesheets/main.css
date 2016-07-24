@@ -4361,12 +4361,12 @@
 
 	@media screen and (max-width: 980px) {
 		.no-mobile {
-			display: none;
+			display: none!important;
 		}
 }
 	@media screen and (min-width: 981px) {
 		.no-big img{
-			display: none;
+			display: none!important;
 		}
 }
 
@@ -4382,7 +4382,7 @@
 	}
 
 	#intro .logo img {display: inline-block; max-width: 300px;}
-	#intro .headshot img {display: inline-block; max-width: 200px;}
+	#intro .headshot img {display: inline-block; max-width: 350px;}
 
 		#intro p {
 			font-size: 1.25em;
