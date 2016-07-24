@@ -4381,7 +4381,8 @@
 		background-size: 100% 100%;
 	}
 
-	#intro .logo img {display: inline-block; max-width: 250px;}
+	#intro .logo img {display: inline-block; max-width: 300px;}
+	#intro .headshot img {display: inline-block; max-width: 200px;}
 
 		#intro p {
 			font-size: 1.25em;
