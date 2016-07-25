@@ -4379,10 +4379,13 @@
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
 	}
 
-	#intro .logo img {display: inline-block; max-width: 300px;}
-	#intro .headshot img {display: inline-block; max-width: 350px;}
+	#intro .logo img {display: inline-block; max-width: 200px;}
+	#intro .headshot img {display: inline-block; max-width: 200px;}
 
 		#intro p {
 			font-size: 1.25em;
@@ -4393,6 +4396,8 @@
 				#intro p br {
 					display: none;
 				}
+					#intro .logo img {max-width: 300px;}
+					#intro .headshot img {max-width: 300px;}
 
 			}
 
