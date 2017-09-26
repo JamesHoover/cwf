@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/services' => 'pages#services'
   get '/transformations' => 'pages#transformations'
   get '/testimonials' => 'pages#testimonials'
+  get '/subscribe' => 'pages#subscribe'
   #get '/blog' => 'pages#blog'
 
   # The priority is based upon order of creation: first created -> highest priority.
